@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.3/css/bulma.css">
+    <style>
+    .box {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    </style>
+    <script src="https://unpkg.com/vue"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@0.12.0/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="hero is-fullheight is-info is-bold">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title has-text-centered">Quiz</h1>
+          <div class="box">
+            
+            <div id="quiz">
+              <form id="form" @submit.prevent="processForm" v-if="stage.intro">
+                
+                <!-- name -->
+                <div class="field">
+                  <label class="label">Name</label>
+                  <input placeholder="Enter your name" type="text" class="input" name="name" v-model="user.name">
+                  <p class="help is-danger" v-if="errors.name">Please enter a name.</p>
+                </div>
+                <!-- email -->
+                <div class="field">
+                  <label class="label">Email</label>
+                  <input placeholder="Enter your email" type="email" class="input" name="email" v-model="user.email" @blur="validateEmail">
+                  <p class="help is-danger" v-if="errors.email">Please enter a valid email.</p>
+                </div>
+                <div class="field">
+                  <label class="label">Difficulty</label>
+                  <select id="difficulty" name="difficulty" v-model="user.difficulty">
+                    <option>Easy</option>
+                    <option>Medium</option>
+                    <option>Hard</option>
+                  </select>
+                </div>
+                <!-- submit -->
+                <div class="field has-text-right">
+                  <button type="submit" class="button is-danger">Submit</button>
+                </div>
+              </form>
+              <div v-if="stage.quiz">
+                <question
+                :question="questions[currentQuestion]"
+                v-on:answer="handleAnswer"
+                :question-number="currentQuestion+1"
+                ></question>
+              </div>
+              <div v-if="stage.results">
+                You got {{correct}} right out of {{questions.length}} questions. Your percentage is {{perc}}%.
+                <br/>
+                You where better than {{rank}}% of all quizer.
+                <br/><br/>
+                <form action="/">
+                  <button type="submit" class="button is-danger">Exit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="static/main.js"></script>
+</body>
+</html>

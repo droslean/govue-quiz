@@ -1,0 +1,400 @@
+{  
+   "questions":{  
+      "easy":[
+    {
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who had a 1969 top 5 hit with the song,  'A Boy Named Sue'?",
+      "correct_answer": "Johnny Cash",
+      "answers": [
+        "Bob Dylan",
+        "Willie Nelson",
+        "Kris Kristofferson",
+        "Johnny Cash"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "According to the International System of Units, how many bytes are in a kilobyte of RAM?",
+      "correct_answer": "1000",
+      "answers": [
+        "512",
+        "1000",
+        "1024",
+        "500"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "How many flagship monsters appear in Monster Hunter Gernerations?",
+      "correct_answer": "4",
+      "answers": [
+        "1",
+        "4",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which computer language would you associate Django framework with?",
+      "correct_answer": "Python",
+      "answers": [
+        "C#",
+        "C++",
+        "Python",
+        "Java"
+      ]
+    },
+    {
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Kanye West's 'Gold Digger' featured which Oscar-winning actor?",
+      "correct_answer": "Jamie Foxx",
+      "answers": [
+        "Alec Baldwin",
+        "Dwayne Johnson",
+        "Jamie Foxx",
+        "Bruce Willis"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What team won the 2016 MLS Cup?",
+      "correct_answer": "Seattle Sounders",
+      "answers": [
+        "Colorado Rapids",
+        "Seattle Sounders",
+        "Toronto FC",
+        "Montreal Impact"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In Animal Crossing, who is the manager of the town shop?",
+      "correct_answer": "Tom Nook",
+      "answers": [
+        "Mr. Resetti",
+        "Gracie",
+        "K.K. Slider",
+        "Tom Nook"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What household item make the characters of 'Steins; Gate' travel through time?",
+      "correct_answer": "Microwave",
+      "answers": [
+        "Computer",
+        "Refrigerator",
+        "Microwave",
+        "Televison"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In 'Call Of Duty: Zombies', what is the name of the machine that upgrades weapons?",
+      "correct_answer": "Pack-A-Punch",
+      "answers": [
+        "Pack-A-Punch",
+        "Wunderfizz",
+        "Gersch Device",
+        "Mule Kick"
+      ]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which candy is NOT made by Mars?",
+      "correct_answer": "Almond Joy",
+      "answers": [
+        "M&M's",
+        "Almond Joy",
+        "Twix",
+        "Snickers"
+      ]
+    }
+  ],
+      "medium":[  
+         {  
+            "category":"History",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"Which king was killed at the Battle of Bosworth Field in 1485? ",
+            "correct_answer":"Richard III",
+            "answers":[  
+               "Edward V",
+               "Richard III",
+               "Henry VII",
+               "James I"
+            ]
+         },
+         {  
+            "category":"History",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"What number does the Roman numeral 'D' stand for?",
+            "correct_answer":"500",
+            "answers":[  
+               "100",
+               "500",
+               "1000",
+               "50"
+            ]
+         },
+         {  
+            "category":"Entertainment: Board Games",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"How many points is the Z tile worth in Scrabble?",
+            "correct_answer":"10",
+            "answers":[  
+               "8",
+               "5",
+               "10",
+               "6"
+            ]
+         },
+         {  
+            "category":"Science & Nature",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"The medical condition osteoporosis affects which part of the body?",
+            "correct_answer":"Bones",
+            "answers":[  
+               "Skin",
+               "Bones",
+               "Brain",
+               "Heart"
+            ]
+         },
+         {  
+            "category":"History",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"In which year did the First World War begin?",
+            "correct_answer":"1914",
+            "answers":[  
+               "1930",
+               "1917",
+               "1914",
+               "1939"
+            ]
+         },
+         {  
+            "category":"Science & Nature",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"A positron is an antiparticle of a what?",
+            "correct_answer":"Electron",
+            "answers":[
+               "Electron",
+               "Neutron",
+               "Proton",
+               "Photon"
+            ]
+         },
+         {  
+            "category":"History",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"Who was the leader of the Communist Party of Yugoslavia ?",
+            "correct_answer":"Josip Broz Tito",
+            "answers":[  
+               "Karadjordje Petrovic",
+               "Milos Obilic",
+               "Josip Broz Tito",
+               "Aleskandar Petrovic"
+            ]
+         },
+         {  
+            "category":"Entertainment: Video Games",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"What is the name of the common, gun-toting enemies of the 'Oddworld' video game series?",
+            "correct_answer":"Sligs",
+            "answers":[  
+               "Scrabs",
+               "Sligs",
+               "Slogs",
+               "Glukkons"
+            ]
+         },
+         {  
+            "category":"Entertainment: Video Games",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"What is the name of the 8th installment in the Fire Emblem series?",
+            "correct_answer":"The Sacred Stones",
+            "answers":[  
+               "Blazing Sword",
+               "The Sacred Stones",
+               "Awakening",
+               "Path of Radiance"
+            ]
+         },
+         {  
+            "category":"Geography",
+            "type":"multiple",
+            "difficulty":"medium",
+            "question":"What is the capital of Lithuania?",
+            "correct_answer":"Vilnius",
+            "answers":[  
+               "Tallinn",
+               "Helsinki",
+               "Riga",
+               "Vilnius"
+            ]
+         }
+      ],
+      "hard":[  
+         {  
+            "category":"History",
+            "type":"multiple",
+            "difficulty":"hard",
+            "question":"On which day did ARPANET suffer a 4 hour long network crash?",
+            "correct_answer":"October 27, 1980",
+            "answers":[  
+               "November 21, 1969",
+               "October 29, 1969",
+               "October 27, 1980",
+               "December 9, 1991"
+            ]
+         },
+         {  
+            "category":"General Knowledge",
+            "type":"multiple",
+            "difficulty":"hard",
+            "question":"The Swedish word 'Grunka' means what in English?",
+            "correct_answer":"Thing",
+            "answers":[  
+               "People",
+               "Thing",
+               "Place",
+               "Pineapple"
+            ]
+         },
+         {  
+            "category":"History",
+            "type":"multiple",
+            "difficulty":"hard",
+            "question":"The Second Boer War in 1899 was fought where?",
+            "correct_answer":"South Africa",
+            "answers":[  
+               "South Africa",
+               "Argentina",
+               "Nepal",
+               "Bulgaria"
+            ]
+         },
+         {  
+            "category":"Entertainment: Japanese Anime & Manga",
+            "type":"multiple",
+            "difficulty":"hard",
+            "question":"Which of these anime have over 7,500 episodes?",
+            "correct_answer":"Sazae-san",
+            "answers":[  
+               "Naruto",
+               "One Piece",
+               "Chibi Maruko-chan",
+               "Sazae-san"
+            ]
+         },
+         {  
+            "category":"History",
+            "type":"multiple",
+            "difficulty":"hard",
+            "question":"Who invented the 'Flying Shuttle' in 1738; one of the key developments in the industrialization of weaving?",
+            "correct_answer":"John Kay",
+            "answers":[  
+               "James Hargreaves",
+               "John Kay",
+               "Richard Arkwright",
+               "John Deere"
+            ]
+         },
+         {  
+            "category":"Entertainment: Film",
+            "type":"multiple",
+            "difficulty":"hard",
+            "question":"What was the first movie to ever use a Wilhelm Scream?",
+            "correct_answer":"Distant Drums",
+            "answers":[  
+               "Treasure of the Sierra Madre",
+               "The Charge at Feather River",
+               "Distant Drums",
+               "Indiana Jones"
+            ]
+         },
+         {  
+            "category":"Science: Mathematics",
+            "type":"multiple",
+            "difficulty":"hard",
+            "question":"The French mathematician &Eacute;variste Galois is primarily known for his work in which?",
+            "correct_answer":"Galois Theory",
+            "answers":[  
+               "Galois' Continued Fractions",
+               "Galois' Method for PDE's ",
+               "Abelian Integration",
+               "Galois Theory"
+            ]
+         },
+         {  
+            "category":"Entertainment: Film",
+            "type":"multiple",
+            "difficulty":"hard",
+            "question":"Before 'Jurassic Park III' was finalized and the Spinosaurus was chosen, which dinosaur was going to be the star?",
+            "correct_answer":"Baryonyx",
+            "answers":[  
+               "Tyrannosaurus Rex",
+               "Baryonyx",
+               "Velociraptor",
+               "Suchomimus"
+            ]
+         },
+         {  
+            "category":"Entertainment: Books",
+            "type":"multiple",
+            "difficulty":"hard",
+            "question":"In Margaret Atwood's 'The Handmaid's Tale', what is Offred's real name is implied to be?",
+            "correct_answer":"June",
+            "answers":[ 
+               "June", 
+               "August",
+               "April",
+               "May"
+            ]
+         },
+         {  
+            "category":"Entertainment: Board Games",
+            "type":"multiple",
+            "difficulty":"hard",
+            "question":"What Magic: The Gathering card's flavor text is just 'Ribbit.'?",
+            "correct_answer":"Turn to Frog",
+            "answers":[  
+               "Spore Frog",
+               "Bloated Toad",
+               "Turn to Frog",
+               "Frogmite"
+            ]
+         }
+      ]
+   }
+}
